@@ -1,0 +1,14 @@
+@api_url=http://localhost:5006
+@auth_url=xxxxxxxxx
+
+### Authenticate
+# @name auth
+POST {{auth_url}}/connect/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password&username=xxxxxxxxx&password=123456&client_id=Server&scope=friends_factory.creators_api&client_secret=xxxxxxxxx
+
+
+###
+GET {{api_url}}/api/asset-stages/
+Authorization: Bearer {{auth.response.body.access_token}}

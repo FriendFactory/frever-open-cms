@@ -1,0 +1,30 @@
+export const Categories = {
+    UserLevel: { title: "User Levels", ordinal: 0 },
+    Readiness: { title: "Readiness", ordinal: 1 },
+    Artist: { title: "Artist", ordinal: 2 },
+    Genre: { title: "Genre", ordinal: 3 },
+    SetLocationCategory: { title: "Set Location Category", ordinal: 4 },
+    WardrobeCategory: { title: "Wardrobe Category", ordinal: 5 },
+    WardrobeSubCategory: { title: "Wardrobe Sub Category", ordinal: 6 },
+    WardrobeCollection: { title: "Wardrobe Collection", ordinal: 7 },
+    WardrobePattern: { title: "Wardrobe Pattern", ordinal: 8 },
+    WardrobeColor: { title: "Wardrobe Color", ordinal: 9 },
+    WardrobeFit: { title: "Wardrobe Fit", ordinal: 10 },
+    WardrobeMaterial: { title: "Wardrobe Material", ordinal: 11 },
+    Brand: { title: "Brand", ordinal: 12 },
+    AssetWardrobeSlot: { title: "Asset Wardrobe Slot", ordinal: 13 },
+    UMAAdjustment: { title: "UMA Adjustment", ordinal: 14 },
+    BodyAnimationCategory: { title: "Body Animation Category", ordinal: 15 },
+    VFXCategory: { title: "VFX Category", ordinal: 16 },
+    CameraFilterCategory: { title: "Camera Filter Category", ordinal: 17 },
+    UmaSharedColor: { title: "Uma Shared Color", ordinal: 18 },
+    TemplateCategory: { title: "Template Category", ordinal: 19 },
+    TemplateSubCategory: { title: "Template Sub Category", ordinal: 20 },
+    AssetTier: { title: "Asset Tiers", ordinal: 21 },
+    PagesNavigation: { title: "Pages Navigations", ordinal: 22 },
+    BodyAnimationGroup: { title: "Body Animation Groups", ordinal: 23 },
+    MovementType: { title: "Movement Type", ordinal: 24 },
+    Country: { title: "Countries", ordinal: 25 }
+};
+
+export type CategoryTypes = keyof typeof Categories;

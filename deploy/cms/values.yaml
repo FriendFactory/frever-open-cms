@@ -1,0 +1,4 @@
+image:
+    repository: "xxxxxxxxx"
+    tag: ""
+sslCertificateArn: "xxxxxxxxx"
